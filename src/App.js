@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ShowDetails from "./components/ShowDetails";
 import ShowSummary from "./components/ShowSummary";
-// import ShowData from "./components/ShowData";
+
 function App() {
   return (
     <Router>
