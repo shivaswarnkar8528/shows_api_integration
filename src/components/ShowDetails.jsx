@@ -23,14 +23,22 @@ function ShowDetails() {
           {shows ? (
             shows.map((item, index) => (
               <div className="show-list-card">
-                <h6 style={{ display: "inline" }}>
-                  <i>Show Name:</i>
+                <i>Show Name:</i>
+                <h4
+                  style={{
+                    display: "inline",
+                    backgroundColor: "white",
+                    color: "black",
+                  }}
+                >
                   <b> {item.show.name}</b>
                   <br />
+                </h4>
+                <h4>
                   <i>
-                    Score: <b>{item.score}</b>
+                    Score: <i>{item.score}</i>
                   </i>
-                </h6>
+                </h4>
                 <p>Language: {item.show.language}</p>
                 <p>Genre: {item.show.genres.join(", ")}</p>
                 <button onClick={() => {}}>

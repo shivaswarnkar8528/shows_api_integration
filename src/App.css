@@ -9,12 +9,14 @@
 }
 .show-list-main{
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   flex-wrap: wrap;
   gap: 10px;
 
 }
 .show-list-card{
+  display: flex; flex-direction: column;
+  justify-content: space-around;
   text-align: center;
   min-height: 200px;min-width: 200px;
   background-color: rgb(240, 0, 60);box-shadow: 5px 5px 5px rgb(165, 152, 152);

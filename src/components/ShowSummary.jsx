@@ -25,6 +25,7 @@ function ShowSummary() {
         dangerouslySetInnerHTML={{ __html: summary }}
       ></div>
       <hr />
+      <br />
       <button style={{ marginLeft: "20px" }} onClick={clickHandler}>
         Go back
       </button>
