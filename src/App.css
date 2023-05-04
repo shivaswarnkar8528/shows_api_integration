@@ -1,0 +1,40 @@
+*{
+  padding:0px ;margin: 0px;
+  overflow-y: hidden;
+}
+.show-list{
+  color: white;
+  padding: 10px;
+  background-color: rgb(43, 40, 40);
+}
+.show-list-main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+.show-list-card{
+  text-align: center;
+  min-height: 200px;min-width: 200px;
+  background-color: rgb(240, 0, 60);box-shadow: 5px 5px 5px rgb(165, 152, 152);
+  color: white;
+  border: 1px solid;
+  padding: 10px;
+}
+button{
+  padding: 8px;
+  border-radius: 10px;
+}
+.show-summary{
+  background-color: rgb(240, 0, 60);
+  padding: 10px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+.show-summary-details{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin: 20px;
+}
